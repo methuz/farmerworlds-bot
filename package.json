@@ -1,0 +1,22 @@
+{
+  "name": "farmer",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "type": "module",
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@line/bot-sdk": "^7.4.0",
+    "@waxio/waxjs": "^1.0.2",
+    "axios": "^0.21.4",
+    "dotenv": "^10.0.0",
+    "eosjs": "^22.1.0",
+    "lodash": "^4.17.21",
+    "node-fetch": "^3.0.0",
+    "text-encoding": "^0.7.0"
+  }
+}
