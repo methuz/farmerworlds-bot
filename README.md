@@ -1,6 +1,7 @@
 # farmerworlds-bot
 
-I develope this project to use on my own, So some features might not be included for example, breeding.
+I develope this project to use on my own, So some features might not be included for example, breeding. 
+Private key safety depends on the server you are running. Use it at your own risk.
 Feel free to fork or pull request
 
 You need Anchor wallet instead of WAX Wallet to be able to export private key
@@ -16,3 +17,5 @@ ACCOUNT=<your account name>
 ENABLE_REFILL_ENERGY=<true if you want to auto refill the energy, otherwise put false>
 ENERGY_TRSH=<Threshold of missing energy to trigger auto refill>
 ```
+
+LICENSE MIT
