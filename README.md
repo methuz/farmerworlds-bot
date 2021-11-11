@@ -16,6 +16,9 @@ You need Anchor wallet instead of WAX Wallet to be able to export private key
 2. `npm install`
 3. `npm install -g pm2` or use any cron you want
 4. config .env
+5. config items.json
+6. pm2 start index.js --cron "*/10 * * * *" --no-autorestart // Auto refill energy, Auto crops
+7. pm2 start scripts/feedCow.js --cron "*/10 * * * *" --no-autorestart //Auto feed cow
 
 
 ```
